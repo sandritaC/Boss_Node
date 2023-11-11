@@ -105,7 +105,7 @@ app.post('/register', async (req, res) => {
         const saltRounds = 10;
         const hashedPassword = await bcrypt.hash(password1, saltRounds);
 
-
+// hy
 
         const newUser = new User({
             username,
